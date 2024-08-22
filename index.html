@@ -5,30 +5,144 @@
 
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/body.css">
+  <link rel="stylesheet" href="styles/product-grid.css">
+  <link rel="stylesheet" href="styles/catagories-grid.css">
+  <link rel="stylesheet" href="styles/general.css">
+  
+
 </head>
 <body>
 
   <header class="header">
 
-    <div class="left-section">
-      <img class="logo-pic" src="images/MarketToGOLogo.png">
+    <div class="left-side">
+     <a href="index.html"><button class="logo-button"><img class="logo-pic" src="images/MarketToGOLogo.png" alt=""></button></a>
+
     </div>
 
 
-    <div class="middle-section"><input class="search-bar" type="text" placeholder="Search">
-    <button class="search-button"><img                     class="search-icon" src="images/search.svg"> 
-    </button>
-  </div>
+    <div class="middle-side">
+    <input class="search-bar" type="text" placeholder="Search">
     
-  <div class="right-section">
-    <div class="cart"><button class="cart-button"><img class="cart-pic" src="images/cartpic.png" alt=""></button>
+      <button class="search-button"><img class="search-pic" src="images/search.svg"></button>
     </div>
 
-    <div class="login"><button class="login-button"><img class="login-button-pic" src="images/userpic.webp" alt=""></button></div>
+
+    <div class="right-side">
+      <button class="cart-button"><img class="cart-pic" src="images/cartpic.png">
+      </button>
+      <button class="prof-button">
+        <img class="prof-pic" src="images/userpic.webp" alt="">
+      </button>
+    </div>
+
+  </header>  
+
+  <div class="page-navigation">
+      <a href="products.html"><button class="page-nav">Products</button></a>
+
+      <a><button class="page-nav">Support</button></a>
+
+      <a><button class="page-nav">Contact</button></a>
+
+   
 
 
   </div>
-  </header>  
+
+  <main>
+  <div class="popular-items">Popular Items</div>
+
+    <section class="product-grid">
+
+      <div class="product-preview">
+        <div class="img-border"><img class="product-pic" src="images/2024_porsche_911-s-t_front.avif" alt=""></div>
+        <div class="product-comp">Porche</div>  
+        <div class="product-title">Porche 911 Turbo S</div>
+        <div class="price-grid">
+          <div class="price">$ 300.000</div>
+         <button class="add-pic-button"><img class="add-pic" src="images/add-icon-sign-symbol-design-free-png.webp" alt=""></button>
+        </div>
+      </div>
+
+      <div class="product-preview">
+        <img class="product-pic" src="images/Toyota_Supra_Monrepos_2019_IMG_1898.jpg" alt="">
+        <div class="product-comp">Toyota</div>  
+        <div class="product-title">Toyota Supra</div>
+        <div class="price-grid">
+          <div class="price">$ 300.000</div>
+         <button class="add-pic-button"><img class="add-pic" src="images/add-icon-sign-symbol-design-free-png.webp" alt=""></button>
+        </div>
+      </div>
+
+      <div class="product-preview">
+        <img class="product-pic" src="images/lexus.jpg " alt="">
+        <div class="product-comp">lexus</div>  
+        <div class="product-title">lexus IS350</div>
+        <div class="price-grid">
+          <div class="price">$ 300.000</div>
+         <button class="add-pic-button"><img class="add-pic" src="images/add-icon-sign-symbol-design-free-png.webp" alt=""></button>
+        </div>
+      </div>
+
+      <div class="product-preview">
+        <img class="product-pic" src="images/novitec-ferrari-sf90-stradale-2022.jpg" alt="">
+        <div class="product-comp">Ferrari</div>  
+        <div class="product-title">Ferrari SF90</div>
+        <div class="price-grid">
+          <div class="price">$ 300.000</div>
+         <button class="add-pic-button"><img class="add-pic" src="images/add-icon-sign-symbol-design-free-png.webp" alt=""></button>
+        </div>
+      </div>
+
+      <div class="product-preview">
+        <img class="product-pic" src="images/hellcat.avif" alt="">
+        <div class="product-comp">Dodge</div>  
+        <div class="product-title">Hellcat</div>
+        <div class="price-grid">
+          <div class="price">$ 300.000</div>
+         <button class="add-pic-button"><img class="add-pic" src="images/add-icon-sign-symbol-design-free-png.webp" alt=""></button>
+        </div>
+      </div>
+
+      <div class="product-preview">
+        <img class="product-pic" src="images/bmw.jpg" alt="">
+        <div class="product-comp">BMW</div>  
+        <div class="product-title">BMW M2</div>
+        <div class="price-grid">
+          <div class="price">$ 300.000</div>
+         <button class="add-pic-button"><img class="add-pic" src="images/add-icon-sign-symbol-design-free-png.webp" alt=""></button>
+        </div>
+      </div>
+
+    
+</section>
+
+<section>
+<div class="catagories-grid">
+  <div class="catagories-title">Brands</div>
+
+<div class="catagories-brands-grid">
+  <img src="logos/porsche-logo.jpg" alt="">
+  <img src="logos/toyota-brand-logo-car-symbol-with-name-black-design-japan-automobile-illustration-free-vector.jpg" alt="">
+  <img src="logos/Lexus-cars-logo-emblem.jpg" alt="">
+  <img src="logos/2002-Ferrari-Logo-600x319.png" alt="">
+  <img src="logos/1997-BMW-logo.webp" alt=""> 
+  <img src="logos/Dodge-Hellcat-Logo.png" alt="">
+</div>
+
+</div>
+</section>
+
+<footer>
+
+
+
+
+</footer>
+
+
+  </main>
 
 </body>
 </html>
