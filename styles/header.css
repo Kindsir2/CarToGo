@@ -17,6 +17,30 @@
   */
 }
 
+.page-navigation{
+  
+  display: flex;
+  justify-content:center;
+  flex-direction: row;
+  height: 50px;
+  background-color: rgb(136, 33, 33);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 90px;
+
+}
+
+.page-nav{
+  margin: 5px;
+  background-color: rgba(240, 248, 255, 0);
+  margin-top: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
 .left-side{
 
   width: 100%;
@@ -120,29 +144,9 @@ input[type=text], select, textarea {
 }
 
 
-.page-navigation{
-  
-  display: flex;
-  justify-content:center;
-  flex-direction: row;
-  height: 50px;
-  background-color: rgb(136, 33, 33);
-  position: relative;
-  left: 0;
-  right: 0;
-  top: 0;
 
-}
 
-.page-nav{
-  margin: 5px;
-  background-color: rgba(240, 248, 255, 0);
-  margin-top: 10px;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-size: 20px;
-}
+
 
 .logo-button{
   background-color: rgba(245, 222, 179, 0);
