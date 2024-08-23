@@ -1,0 +1,26 @@
+.footer-grid{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content:space-between;
+  background-color: rgb(119, 119, 119);
+  height: 300px;
+  bottom: 0;
+  
+  
+  
+}
+
+.info-div{
+  display: grid;
+  position: relative;
+
+  background-color: aqua;
+  margin-top: -150px;
+  row-gap: -10px;
+  left: 0;
+  right: 0;
+ 
+  
+}
+
