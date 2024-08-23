@@ -110,7 +110,7 @@
 
 
 .page-navigation{
-  z-index: 10;
+  
   display: flex;
   justify-content:center;
   flex-direction: row;
@@ -136,4 +136,11 @@
 .logo-button{
   background-color: rgba(245, 222, 179, 0);
   border-color: rgba(245, 222, 179, 0);
+}
+.logo-text2{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-left: 130px;
+  margin-top: -38px;
 }

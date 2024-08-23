@@ -1,26 +1,46 @@
 .footer-grid{
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content:space-between;
-  background-color: rgb(119, 119, 119);
+  background-color: gray;
   height: 300px;
-  bottom: 0;
-  
-  
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 40px;
+
 }
 
 .info-div{
-  display: grid;
-  position: relative;
-
-  background-color: aqua;
-  margin-top: -150px;
-  row-gap: -10px;
-  left: 0;
-  right: 0;
- 
+  display: flex;
+  padding-top: 20px;
+  background-color: gray;
   
+}
+
+.info-text{
+  padding: 70px;
+
+}
+
+.find-us{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-logo{
+  width: 200px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.logo-text{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  margin-left: 70px;
+}
+
+.foot-butt{
+  font-size: 15px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
 }
 
