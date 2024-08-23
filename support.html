@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Contact</title>
+  <title>Support</title>
 
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/body.css">
@@ -10,8 +10,6 @@
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/contact.css">
-  <link rel="stylesheet" href="styles/support.css">
-  <link rel="stylesheet" href="styles/cart.css">
   
 
 </head>
@@ -59,30 +57,36 @@
   </div>
 
   <body>
-      
-    <div class="cart-grid">
-        <div class="product-preview">
-          <div class="image-border-base">
-            <div class="img-border"><img class="product-pic" src="images/2024_porsche_911-s-t_front.avif" alt=""></div>
-          <div class="product-comp">Porche</div>  
-          <div class="product-title">Porche 911 Turbo S</div>
-          <div class="price-grid">
-            <div class="price">Price: $ 300.000</div>
-          </div>
-        </div>
-          <p>Total:</p>
-          <p>$ 300.000</p>
-          <input type="submit"></button>
-        </div>
-    </div>
-      
-
-
+    
   </body>
 
   <main>
+    <div class="container">
+      <form action="action_page.php">
     
-  
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="Country">Country</label>
+        <input type="text" id="country" name="Country" placeholder="Your country..">
+
+        <label for="Email">Email</label>
+        <input type="text" id="Email" name="Country" placeholder="Your email..">
+        
+        <label for="Number">Number</label>
+        <input type="text" id="Number" name="Number" placeholder="Your Number..">
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+    </div>
+</section>
 
 <footer class="footer">
   
